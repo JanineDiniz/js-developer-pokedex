@@ -1,24 +1,127 @@
-* {
-    font-family: 'Roboto', sans-serif;
-    box-sizing: border-box;
+*{
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+}
+body{
+  background-color: #f6f8fc;
 }
 
-body {
-    background-color: #f6f8fc;
+.content{
+  height: 100vh;
+  width: 100vw;
+  padding: 1rem;
+  background-color: white;
+  user-select: none;
 }
 
-.content {
-    width: 100vw;
-    height: 100vh;
-    padding: 1rem;
-    background-color: #fff;
+.normal{
+  background-color:  #a6a877;
+}
+.grass{
+  background-color:  #92e969;
+}
+.fire{
+  background-color:  #e74f3b;
+}
+.water{
+  background-color:  #52a6df;
+}
+.electric{
+  background-color:  #f3ee50;
+}
+.ice{
+  background-color:  #aadbdd;
+}
+.ground{
+  background-color:  #dfbf69;
+}
+.flying{
+  background-color:  #a98ff0;
+}
+.poison{
+  background-color:  #c96bc9;
+}
+.fighting{
+  background-color:  #bd342c;
+}
+.psychic{
+  background-color:  #e7698f;
+}
+.dark{
+  background-color:  #927663;
+}
+.rock{
+  background-color:  #dbc251;
+}
+.bug{
+  background-color:  #c4d33b;
+}
+.ghost{
+  background-color:  #9075c2;
+}
+.steel{
+  background-color:  #cfcde4;
+}
+.dragon{
+  background-color:  #7f53f0;
+}
+.fairy{
+  background-color:  #f9aec7;
 }
 
-@media screen and (min-width: 992px) {
-    .content {
-        max-width: 992px;
-        height: auto;
-        margin: 1rem auto;
-        border-radius: 1rem;
-    }
+
+/* Color */
+.normal_color{
+  color:  #a6a877;
+}
+.grass_color{
+  color:  #92e969;
+}
+.fire_color{
+  color:  #e74f3b;
+}
+.water_color{
+  color:  #52a6df;
+}
+.electric_color{
+  color:  #f3ee50;
+}
+.ice_color{
+  color:  #aadbdd;
+}
+.ground_color{
+  color:  #dfbf69;
+}
+.flying_color{
+  color:  #a98ff0;
+}
+.poison_color{
+  color:  #c96bc9;
+}
+.fighting_color{
+  color:  #bd342c;
+}
+.psychic_color{
+  color:  #e7698f;
+}
+.dark_color{
+  color:  #927663;
+}
+.rock_color{
+  color:  #dbc251;
+}
+.bug_color{
+  color:  #c4d33b;
+}
+.ghost_color{
+  color:  #9075c2;
+}
+.steel_color{
+  color:  #cfcde4;
+}
+.dragon_color{
+  color:  #7f53f0;
+}
+.fairy_color{
+  color:  #f9aec7;
 }
